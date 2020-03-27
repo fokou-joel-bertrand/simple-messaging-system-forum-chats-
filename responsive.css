@@ -1,0 +1,67 @@
+.home-body{
+    background-image: linear-gradient(to bottom right, rgb(236, 224, 224), rgb(250, 249, 249), rgb(236, 233, 233), rgb(231, 229, 229));
+}
+ul{
+    padding: 10px;
+}
+li{
+    }
+@media (max-width: 560px){
+    .login-body{
+        background-size: cover;
+    }
+    
+#login-card {
+     width: 99%;
+     padding: 30px 30px 30px 10px;     
+
+}
+input{
+    width:70%;
+}
+button.login{
+    width: 60%;
+}
+
+
+button.exit,
+button.send,
+button.inbox{
+ width:70%;
+}
+}
+@media (max-width: 800px){
+    
+
+button.exit,
+button.send,
+button.inbox{
+ width:70%;
+ 
+
+}
+.grid-row{
+    display: block;
+    
+    float: left;
+    width:90%;
+    margin-right:40px;
+}
+.grid-row .float-right{
+   float: left;
+}
+li form .label{
+    padding:20px 10px;
+    
+}
+
+.NameLabel{
+ background-color: rgb(101, 114, 185);
+ font-size: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button.sendmsg{
+    width:30%;
+}
+
+}

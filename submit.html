@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="head">
+        <meta charset="utf-8">
+    <title>Messaging</title>
+    <link rel="stylesheet" href="CSS.css">
+    <style>
+    .div2{text-align: left;}
+     form{text-align:center; font-size: 40px;}
+    .input{border: 1px solid black; border-radius: 15px; height: 50px; width:500px; font-size:20px; padding-left: 15px; font-weight:10px;}
+    .input:hover{border: 1px solid blue;}
+    #sub{font-size:50px; border:1px solid orange; border-radius:15px; bacKground-color:orange; padding:10px; color:bold;}
+    #sub:hover{cursor: pointer; opacity: 0.5;}
+    </style>
+    </head>
+<body>
+ 
+    <div class="container">
+        <div class="cont-item div1"> MESSAGING SYSTEM</div>
+        <a href="login.php" ><button style="padding:10px;  position:absolute;border-radius: 5px; width:100px; right:40px; top:30px; cursor:pointer; padding: 10px 20px; font-size: 20px;border: 1px solid rgb(206, 139, 139);color: rgb(206, 139, 139); background:rgb(32, 30, 30);">Login</button></a>
+
+       
+        <form method="post" action="result.php">
+<pre>Name:             <input type="text" name="Nam" class="input" placeholder="Enter your name here" required><br><br></pre>
+<pre>Matricule Number: <input type="text" class="input" name="Mat" placeholder="Enter your matricule number here" maxlength="8" required><br><br></pre>
+<pre>Phone Number:     <input type="text" class="input" maxlength="9"  name="telNumber" placeholder="Enter your phone number here" required><br><br></pre>
+<input type="submit" id="sub" value = "Submit">
+</form>
+<br><h3 align="center"><a  href="login.php">i already have an account</a></h3>
+
+<br><br><br>
+        <div class="div3">University Of Buea - Cameroon</div>
+</div>
+
+
+</body>
+</html>
+
